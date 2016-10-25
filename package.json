@@ -1,0 +1,28 @@
+{
+    "name": "html-resume",
+    "version": "1.0.0",
+    "description": "'Ben Young's HTML resume'",
+    "main": "server.js",
+    "engines": {
+        "node": "6.4.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jbenjaminy/html-resume.git"
+    },
+    "author": "Ben Young",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jbenjaminy/html-resume/issues"
+    },
+    "homepage": "http://resume.jbenjaminy.com",
+    "dependencies": {
+        "express": "^4.14.0"
+    },
+    "devDependencies": {
+    }
+},
