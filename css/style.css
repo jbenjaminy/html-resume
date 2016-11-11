@@ -1,28 +1,36 @@
 body {
 	-webkit-font-smoothing: antialiased;
-	width: 80%;
 	font-family:'Droid Sans', 'Open Sans', sans-serif;
-	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 50px;
-
+	height: 100%;
 }
 
 header {
-	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	background-color: #f9dbb3;
+	width: 100%;
 }
+
+.main {
+	width: 80%;
+	margin: 0 auto;
+}
+
 section {
 	margin-bottom: 20px;
 }
 
 h1 {
+	padding-top: 25px;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 5px;
+	text-align: center;
 	color: #003D74;
 	text-shadow: 0 1px #eaebec;
 	font-weight: 500;
-	font-size: 1.75em;
+	font-size: 50px;
+	letter-spacing: 10px;
 }
 
 h2 {
@@ -36,7 +44,7 @@ h2 {
 
 h3 {
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 3px;
 	font-weight: 600;
 	font-size: 1.05em;
 	color: #4c5058;
@@ -73,25 +81,31 @@ a:hover {
 	cursor: pointer;
 	color: #A5ABAD;
 }
+
 .hr-header {
-	width: 325px;
+	width: 720px;
+	margin: 0 auto;
 	margin-top: 0;
 	margin-bottom: 0;
 	border-top-color: #4c5058;
 }
+
 .hr-section {
 	margin-top: 0;
 	margin-bottom: 5px;
 	border-top-color: #4c5058;
 }
+
 .content {
 	width: 100%;
 }
+
 .titles {
 	width: 75%;
 	text-align: left;
 	display: inline-block;
 }
+
 .name {
 	display: inline-block;
 }
@@ -99,23 +113,37 @@ a:hover {
 .location {
 	display: inline-block;
 }
+
 .position {
 	display: inline-block;
 	font-size: 0.95em;
 	font-style: italic;
 	font-weight: 400;
 }
+
 .dates {
 	width: 25%;
 	text-align: right;
 	display: inline-block;
 }
-.gh, .li {
-	width: 48%;
+
+.bot-row {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.fa {
 	text-align: center;
 	display: inline-block;
-	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
+
+.envelope {
+	color: #FFFFFF;
+}
+
 .fa-linkedin {
 	padding-bottom: 6px;
 }
@@ -124,19 +152,16 @@ a:hover {
 	min-height: 20px;
 }
 
-a:hover > .fa, a:hover > .text {
+a:hover > .fa {
 	color: #A5ABAD;
 	cursor: pointer;
 }
 
 .linkedin {
     color: #0077B5;
-
 }
+
 .github {
     color: #6CC644;
-}
-.text {
-	padding-bottom: 5px;
 }
 		
