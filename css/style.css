@@ -13,7 +13,7 @@ header {
 }
 
 .main {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -39,7 +39,8 @@ h2 {
 	color: #003D74;
 	text-shadow: 0.5px 0 #eaebec;
 	font-weight: 500;
-	font-size: 1.2em;
+	font-size: 1.4em;
+	letter-spacing: 3px;
 }
 
 h3 {
@@ -70,6 +71,7 @@ ul {
 }
 li {
 	color: #4c5058;
+	margin-bottom: 2px;
 }
 
 a {
@@ -161,7 +163,21 @@ a:hover > .fa {
     color: #0077B5;
 }
 
-.github {
+.github, .gh {
     color: #6CC644;
 }
-		
+
+.phone, .dt {
+	color: #FF4136;
+}
+
+.gh, .dt {
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline-block;
+	text-align: left;
+}
+
+.fa-gh {
+	margin-top: -10px;
+}
