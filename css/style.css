@@ -8,8 +8,9 @@ body {
 
 header {
 	margin-bottom: 20px;
-	background-color: #f9dbb3;
+	background-color: #35404F;
 	width: 100%;
+	height: 180px;
 }
 
 .main {
@@ -26,8 +27,8 @@ h1 {
 	margin-top: 0;
 	margin-bottom: 5px;
 	text-align: center;
-	color: #003D74;
-	text-shadow: 0 1px #eaebec;
+	color: #4AAAA5;
+	text-shadow: 1px 1px #7ACCC8;
 	font-weight: 500;
 	font-size: 50px;
 	letter-spacing: 10px;
@@ -36,8 +37,8 @@ h1 {
 h2 {
 	margin-top: 0;
 	margin-bottom: 0;
-	color: #003D74;
-	text-shadow: 0.5px 0 #eaebec;
+	color: #60748F;
+	text-shadow: 1px 1px #4AAAA5;
 	font-weight: 500;
 	font-size: 1.4em;
 	letter-spacing: 3px;
@@ -81,15 +82,7 @@ a {
 
 a:hover {
 	cursor: pointer;
-	color: #A5ABAD;
-}
-
-.hr-header {
-	width: 720px;
-	margin: 0 auto;
-	margin-top: 0;
-	margin-bottom: 0;
-	border-top-color: #4c5058;
+	color: #A0A0A9;
 }
 
 .hr-section {
@@ -131,8 +124,12 @@ a:hover {
 
 .bot-row {
 	text-align: center;
-	padding-bottom: 20px;
+	border-radius: 5px;
+	padding-bottom: 10px;
 	padding-top: 10px;
+	width: 380px;
+	margin: 0 auto;
+	border: 1px solid #FFFFFF;
 }
 
 .fa {
@@ -155,20 +152,24 @@ a:hover {
 }
 
 a:hover > .fa {
-	color: #A5ABAD;
+	color: #A0A0A9;
 	cursor: pointer;
 }
 
 .linkedin {
-    color: #0077B5;
+    color: #4078C0;
 }
 
 .github, .gh {
-    color: #6CC644;
+    color: #A3D39C;
 }
 
 .phone, .dt {
-	color: #FF4136;
+	color: #E45F56;
+}
+
+.briefcase {
+	color: #60748F;
 }
 
 .gh, .dt {
