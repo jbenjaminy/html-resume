@@ -147,10 +147,6 @@ a:hover {
 	padding-bottom: 6px;
 }
 
-.social > a {
-	min-height: 20px;
-}
-
 a:hover > .fa {
 	color: #A0A0A9;
 	cursor: pointer;
