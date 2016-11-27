@@ -127,7 +127,7 @@ a:hover {
 	border-radius: 5px;
 	padding-bottom: 10px;
 	padding-top: 10px;
-	width: 380px;
+	width: 450px;
 	margin: 0 auto;
 	border: 1px solid #FFFFFF;
 }
@@ -166,6 +166,10 @@ a:hover > .fa {
 
 .briefcase {
 	color: #60748F;
+}
+
+.angellist {
+	color: #FF7F50; 
 }
 
 .gh, .dt {
